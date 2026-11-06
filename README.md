@@ -13,7 +13,7 @@ A command-line shipping cost calculator. You give it a package weight (kg) and a
 
 ## Usage
 
-Requires Python 3.8+. No dependencies.
+Requires Python 3.10+. No dependencies.
 
 ```bash
 python3 Shipping_Cost_Calculator.py
@@ -38,7 +38,7 @@ shipping_cost("2.5", "4.20")  # Decimal('10.50')
 python3 -m unittest -v test_shipping_cost.py
 ```
 
-CI runs the tests on Python 3.9 and 3.12 on every push.
+CI runs the tests on Python 3.10 and 3.13 on every push.
 
 ## Contributing
 
